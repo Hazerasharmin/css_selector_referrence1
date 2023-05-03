@@ -1,0 +1,127 @@
+
+.intro {
+  background-color: yellow;
+}
+#firstname {
+  background-color: yellow;
+}
+* {
+  background-color: pink;
+}
+
+p {
+  background-color: pink;
+}
+
+
+h2, p {
+  background-color: yellow;
+}
+
+div > p {
+  background-color: yellow;
+}
+
+a:visited {
+  color: pink;
+
+}
+
+
+input:valid {
+  background-color: yellow;
+}
+
+:target {
+  border: 2px solid #D4D4D4;
+  background-color: #e5eecc;
+}
+
+::selection {
+  color: red;
+  background: yellow;}
+
+
+  input:required {
+  background-color: yellow;
+}
+
+input:read-write {
+  background-color: yellow;
+}
+
+input:read-only {
+  background-color: yellow;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: red;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+input:out-of-range {
+  border: 2px solid red;
+}
+
+p:only-child {
+  background: red;
+}
+
+
+/* Selects the second element of div siblings */
+div:nth-of-type(2) {
+  background: red;
+}
+
+/* Selects the second li element in a list */
+li:nth-of-type(2) {
+  background: lightgreen;
+}
+
+/* Selects every third element among any group of siblings */
+:nth-of-type(3) {
+  background: yellow;
+}
+
+p:nth-last-child(2) {
+  background: red;
+} 
+
+
+p {
+  color: #000000;
+}
+
+:not(p) {
+  color: #ff0000;
+}
+
+::marker { 
+  color: red;
+}
+
+a:link {
+  background-color: yellow;
+}
+
+p:last-child {
+  background: #ff0000;
+}
+
+p:lang(it) { 
+  background: yellow;
+}
+input:invalid {
+  border: 2px solid red;
+}
+
+a:hover {
+  background-color: yellow;
+}
